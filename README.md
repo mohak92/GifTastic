@@ -1,5 +1,5 @@
 # GifTastic
-<h2>Gifs from<a href ="https://developers.giphy.com/">GIPHY</a></h2>
+<h2>Gifs from <a href ="https://developers.giphy.com/">GIPHY</a></h2>
 This is a Gif website where you can see 10 Gif of animals, person etc.
 To search and discover gifs <a href ="https://mohak92.github.io/GifTastic/">Click here</a>
 <div>
