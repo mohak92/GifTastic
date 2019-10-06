@@ -68,7 +68,7 @@ $("#add-animal").on("click", function (event) {
     event.preventDefault();
     // This line of code will grab the input from the textbox
     var animal = $("#animal-input").val().trim().toLowerCase();
-    if (animal.length !== 0) {
+    if (animal.length !== 0 && !animals.includes(animal)) {
         // The animal from the textbox is then added to our array
         animals.push(animal);
 
@@ -95,3 +95,4 @@ $(document).on("click", ".gif", function() {
 
 // Calling the renderButtons function to display the intial buttons
 renderButtons();
+displayAnimalGifs();
