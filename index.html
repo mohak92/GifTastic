@@ -13,7 +13,25 @@
 
 <body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <div class="container">
+
+        <!-- Rendered buttons will get dumped here  -->
+        <div id="buttons-view"></div>
+
+        <form id="search-form">
+            <h4>Add an animal!</h4>
+            <input class="text-box" type="text" id="animal-input"><br>
+            <!-- Button triggers new animal to be added -->
+            <input id="add-animal" type="submit" value="Submit">
+        </form>
+
+        <!-- Animal gifs will get dumped Here -->
+        <div class="row">
+        <div id="gifs-appear-here"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="assets/javascript/script.js"></script>
